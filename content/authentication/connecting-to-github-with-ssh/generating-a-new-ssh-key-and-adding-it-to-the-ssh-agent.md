@@ -22,12 +22,38 @@ If you don't already have an SSH key, you must generate a new SSH key to use for
 
 {% ifversion fpt or ghae or ghes > 3.1 or ghec %}
 
-If you want to use a hardware security key to authenticate to {% data variables.product.product_name %}, you must generate a new SSH key for your hardware security key. You must connect your hardware security key to your computer when you authenticate with the key pair. For more information, see the [OpenSSH 8.2 release notes](https://www.openssh.com/txt/release-8.2).
-
+If you want to use a hardware security key to authenticate to {% data variables.product.product_name %}, you must generate a new SSH key for your hardware security key. You must connect your hardware security key to your computer when you authenticate with the key pair. For more information, see the  - /articles/adding-a-new-ssh-key-to-the-ssh-agent
+  - /articles/generating-a-new-ssh-key
+  - /articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+  - /github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+  - /github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+versions:
+  fpt: '*'
+  ghes: '*'
+  ghae: '*'
+  ghec: '*'
+topics:
+  - SSH
+shortTitle: Generate new SSH key
 {% endif %}
 If you don't want to reenter your passphrase every time you use your SSH key, you can add your key to the SSH agent, which manages your SSH keys and remembers your passphrase.
 
 ## Generating a new SSH key
+ - /articles/adding-a-new-ssh-key-to-the-ssh-agent
+  - /articles/generating-a-new-ssh-key
+  - /articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+  - /github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+  - /github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+versions:
+  fpt: '*'
+  ghes: '*'
+  ghae: '*'
+  ghec: '*'
+topics:
+  - SSH
+shortTitle: Generate new SSH key 
+
+E81E-1D95
 
 {% data reusables.command_line.open_the_multi_os_terminal %}
 2. Paste the text below, substituting in your {% data variables.product.product_name %} email address.
